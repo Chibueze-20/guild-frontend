@@ -5,7 +5,11 @@ import guild_logo from "../Assets/guild_logo.svg";
 export default function Splash() {
   return (
     <div
-      style={{ height: "100vh", alignItems: "center", display: "inline-flex" }}
+      style={{
+        minHeight: "100vh",
+        alignItems: "center",
+        display: "inline-flex",
+      }}
       className="w-100 crunch-orange-bg"
     >
       <Container>

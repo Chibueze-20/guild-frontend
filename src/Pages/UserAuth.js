@@ -8,7 +8,11 @@ export default function UserAuth() {
   const { register, handleSubmit, errors } = useForm();
   return (
     <div
-      style={{ height: "100vh", alignItems: "center", display: "inline-flex" }}
+      style={{
+        minHeight: "100vh",
+        alignItems: "center",
+        display: "inline-flex",
+      }}
       className="w-100 crunch-orange-bg"
     >
       <Container>
