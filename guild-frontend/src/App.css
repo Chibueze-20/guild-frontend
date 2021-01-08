@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
+/* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+.home-link {
+  color: none;
+  text-decoration: none;
+}
+a.home-link:hover {
+  color: none;
+}
+.crunch-btn {
+  background-color: #7a1e26;
+  color: #dfaa35 !important;
+  border-radius: 20px;
+  padding: 3px;
+  width: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.crunch-btn > a {
+  text-decoration: none;
+  color: #dfaa35;
+}
+.crunch-red-bg {
+  background-color: #7a1e26;
+}
+.crunch-orange-bg {
+  background-color: #dfaa35;
+}
+.crunch-red-text {
+  color: #7a1e26;
+}
+a.crunch-red-text:hover {
+  color: #7a1e26;
+}
+.crunch-orange-text {
+  color: #dfaa35;
+}
+a.crunch-orange-text:hover {
+  color: #dfaa35;
+}
+.guild-form label {
+  color: #fff;
+  text-transform: uppercase;
+}
+.form {
+  border: none;
+  border-bottom: 1px solid #fff;
+  box-sizing: border-box;
+  background-color: inherit;
+  border-radius: 0px;
+  transition: linear;
+  transition-property: border;
+  transition-duration: 0.3s;
+}
+.form:focus {
+  outline: none;
+  border-bottom: 1px solid #7a1e26;
+  background: none;
+  box-shadow: none;
+}
+.error {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: rgba(219, 0, 0, 0.8);
+  font-style: italic;
 }
