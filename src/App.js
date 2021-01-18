@@ -9,6 +9,7 @@ import {
 import Splash from "./Pages/SplashScreen";
 import UserAuth from "./Pages/UserAuth";
 import UserSignUp from "./Pages/UserSignUp";
+import Ranking from "./Pages/Ranking";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" exact component={Splash} />
         <Route path="/login" component={UserAuth} />
         <Route path="/register" component={UserSignUp} />
+        <Route path="/vote" component={Ranking} />
       </Switch>
     </Router>
   );

@@ -1,0 +1,11 @@
+.menu-link {
+  padding: 3px;
+  font: 18px sans-serif;
+  margin-left: 5%;
+}
+.nav-theme {
+  background-color: rgba(122, 30, 38, 0.71);
+}
+a.menu-link:hover {
+  text-decoration: none;
+}
